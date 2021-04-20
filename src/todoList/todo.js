@@ -21,7 +21,7 @@ export function Todo({title,body,date,removeTodo,index}) {
         <div className="card-body">
           {body}
           <br/>
-          <MDBBtn onClick={()=>removeTodo(index)} outline rounded  className="float-right mb-3" size="sm" color="danger" ><MDBIcon icon="trash" className="mr-2" />Remove Todo</MDBBtn>
+          <MDBBtn onClick={()=>removeTodo(index)} outline rounded  className="float-right mb-3" size="sm"  color="deep-orange" ><MDBIcon icon="trash" className="mr-2" />Remove Todo</MDBBtn>
         </div>
       </div>
     </div>);
