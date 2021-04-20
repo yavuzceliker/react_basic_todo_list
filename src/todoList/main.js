@@ -46,7 +46,7 @@ var title="",body="";
   
   const DelTodo=(index)=>setList(currentList=>RemoveTodo(index,currentList));
 return (
-    <div className="indigo-bg indigo w-100">
+    <div className="main-bg peach-gradient color-block-5  w-100">
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center bd-highlight " >
           <TodoListCard removeTodo={DelTodo} toggleAddTodoCard={ToggleAddTodoCard} clearList={ClearList} todoList={todoList}/>

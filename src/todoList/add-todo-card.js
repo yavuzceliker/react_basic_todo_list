@@ -10,8 +10,8 @@ export const AddTodoCard=({titleChanged,bodyChanged,addList,addCardIsOpen,toggle
           <TodoInputs titleChanged={titleChanged}  bodyChanged={bodyChanged} />
         </MDBModalBody>
         <MDBModalFooter>
-          <MDBBtn color="secondary" onClick={toggleAddTodoCard}>Close</MDBBtn>
-          <MDBBtn type="button" color="primary" onClick={addList} >Add Todo</MDBBtn>
+          <MDBBtn color="deep-orange" onClick={toggleAddTodoCard}>Close</MDBBtn>
+          <MDBBtn type="button" className=" amber darken-2 text-white" onClick={addList} >Add Todo</MDBBtn>
         </MDBModalFooter>
       </MDBModal>
     );
